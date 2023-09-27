@@ -1,5 +1,6 @@
-title: CSCRC SCReeD
+title: Minimal theme
 logo: /assets/imgs/cscrc-logo.png
-description: text below img
+description: Minimal is a theme for GitHub Pages.
 show_downloads: true
-themes: jekyll-theme-mininal
+google_analytics:
+theme: jekyll-theme-minimal
