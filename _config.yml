@@ -1,1 +1,5 @@
-
+title: CSCRC SCReeD
+logo: /assests/imgs/cscrc-logo.png
+description: text below img
+show_download: true
+themes: jekyll-theme-mininal
