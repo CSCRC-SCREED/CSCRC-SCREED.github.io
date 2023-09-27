@@ -12,6 +12,17 @@ The data captured in cybersecurity research datasets can be beneficial not only 
 SCReeD defines standards for sharing cybersecurity datasets, provides guidelines for users so that the metadata to capture for cybersecurity datasets is streamlined, including technical and legal considerations, without the need for the uploader to be an expert in data sharing.
 </p>
 
-# How to uplooad Dataset
+# SCReeD Dataset Uploading Guidelines  
+<p align="justify">
+The guidelines are provided for SCReeD users regarding dataset uploading, ensuring a systematic approach and inclusion of all relevant metadata. 
+</p>
 
-TBA
+### Before Uploading 
+<p align="justify">
+Before uploading, users need to prepare their dataset(s) according to the SCReeD Dataset Preparation Guidelines (see separate file). 
+</p>
+
+### The Uploading Process 
+<p align="justify">
+During the uploading process, users need to attach a form with all the required metadata (see separate file). 
+</p>
