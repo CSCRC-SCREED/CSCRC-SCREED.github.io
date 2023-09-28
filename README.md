@@ -35,8 +35,7 @@ To upload data, users need to do following steps:
   
 * Create a folder to hold your data file, in this example, we will create a folder called **dataset**. Click on the **Create new file** button, and type in **dataset/.githold**. This will create a folder called **dataset** and place a file called** .githold** inside it.
 
-  ![How to upload data file](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
-
+  [![How to upload data file](/assets/videos/video-preview.png)](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
 
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be\
