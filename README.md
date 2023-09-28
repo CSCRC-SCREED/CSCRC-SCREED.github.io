@@ -20,6 +20,7 @@ The guidelines are provided for SCReeD users regarding dataset uploading, ensuri
 
 # Before Uploading
 Before uploading, users need to do following steps.
+
 * Be a member of CSCRC-SCREED organization on GitHub. (Please contact masooma.iftikhar@data61.csiro.au for membership.)
 * Prepare the dataset(s) according to the [SCReeD Dataset Preparation Guidelines](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Preparation%20Guidelines.docx) (Click View Raw to download).
 * Download and fill all relevant metadata in the [SCReeD Dataset Declaration Form](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Declaration%20Form.docx) (Click View Raw to download).
