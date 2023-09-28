@@ -36,18 +36,18 @@ To upload data, users need to do following steps:
   
 * Create a folder to hold your data file, in this example, we will create a folder called **dataset**. Click on the **Create new file** button, and type in **dataset/.githold**. This will create a folder called **dataset** and place a file called** .githold** inside it.
 
-![How to upload data files](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/assets/146057458/429bebd2-f2da-4623-b071-33f8faf4a993)
+  [![How to upload data files](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
   
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be\
   ├── README.md\
  	├── .dataherb\
  	├── dataset\
- 	  └── your_data_file\
+ 	  └── your_data_file
 
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
   *.docx    binary\
- 	*.pdf     binary\
+ 	*.pdf     binary
 
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:
