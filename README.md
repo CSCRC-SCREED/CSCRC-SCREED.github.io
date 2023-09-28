@@ -30,12 +30,13 @@ Once you are done During the uploading process, users need to attach a form with
 To upload data, users need to do following steps:
 * Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
 * Click repositories on the top to create a GitHub repository to host a dataset.Click on the **+** on the top right as shown below.
-  
-  ![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
+
+![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
   
 * Create a folder to hold your data file, in this example, we will create a folder called **dataset**. Click on the **Create new file** button, and type in **dataset/.githold**. This will create a folder called **dataset** and place a file called** .githold** inside it.
-  
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+
+![How to upload data file](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
+
 
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be\
