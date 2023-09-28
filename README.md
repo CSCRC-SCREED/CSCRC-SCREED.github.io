@@ -33,7 +33,7 @@ To upload data, users need to do following steps:
 * To create a GitHub repository to host a dataset, click on the **+** on the top right as shown below.
   ![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
 * Create a folder to hold your data file, in this example, we will create a folder called **dataset**. Click on the **Create new file** button, and type in **dataset/.githold**. This will create a folder called **dataset** and place a file called** .githold** inside it.
-  ![Example](https://myoctocat.com/assets/images/base-octocat.svg](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
+  ![Example](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be
   ├── README.md
@@ -64,6 +64,8 @@ To upload data, users need to do following steps:
     link: [https://link_to_your_first_reference]
 
 •	Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
+![Example Repo](/assets/imgs/example.png)
+
 
 
 
