@@ -41,33 +41,33 @@ To upload data, users need to do following steps:
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be
   
-  ├── README.md
-  ├── .dataherb
-  ├── dataset
-      └── your_data_file
+  - ├── README.md
+  - ├── .dataherb
+  - ├── dataset
+    - └── your_data_file
 
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:
   
-  *.docx    binary
-  *.pdf     binary
+  - *.docx    binary
+  - *.pdf     binary
 
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:
-  name: [Name of your dataset]
-  description: [Describe your dataset here]
-  contributors:
-  - name: [Name of the the first contributor]
-  data:
-  - path: [path_to_your_data_file]
-    format: [any]
-    size: [size of your data file]
   
-  license:
-  - name: [Name of the license of the dataset]
-    link: [Link to the license page]
-  references:
-  - name: [Name of the first reference]
-    link: [https://link_to_your_first_reference]
+  - name: [Name of your dataset]
+  - description: [Describe your dataset here]
+  - contributors:
+    - name: [Name of the the first contributor]
+  -data:
+    - path: [path_to_your_data_file]
+    - format: [any]
+    - size: [size of your data file]
+  - license:
+    - name: [Name of the license of the dataset]
+    - link: [Link to the license page]
+  - references:
+    - name: [Name of the first reference]
+    - link: [https://link_to_your_first_reference]
 
 •	Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
