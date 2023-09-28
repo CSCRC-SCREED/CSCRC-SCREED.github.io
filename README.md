@@ -31,7 +31,39 @@ To upload data, users need to do following steps:
 * Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
 * Click repositories on the top.
 * To create a GitHub repository to host a dataset, click on the **+** on the top right as shown below.
-  ![Screenshot how to create a GitHub repository to host a dataset](https://myoctocat.com/assets/images/base-octocat.svg](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
+  ![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
+* Create a folder to hold your data file, in this example, we will create a folder called **dataset**. Click on the **Create new file** button, and type in **dataset/.githold**. This will create a folder called **dataset** and place a file called** .githold** inside it.
+  ![Example](https://myoctocat.com/assets/images/base-octocat.svg](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
+* Upload your data file into this folder by clicking on button **Upload files**.
+*	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be
+  ├── README.md
+  ├── .dataherb
+  ├── dataset
+      └── your_data_file
+
+*	Create a file **.gitattributes** in the **.dataherb** folder with the following content:
+  *.docx    binary
+  *.pdf     binary
+
+*	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
+*	Create a file metadata.yml in the .dataherb with the following content:
+  name: [Name of your dataset]
+  description: [Describe your dataset here]
+  contributors:
+  - name: [Name of the the first contributor]
+  data:
+  - path: [path_to_your_data_file]
+    format: [any]
+    size: [size of your data file]
+  
+  license:
+  - name: [Name of the license of the dataset]
+    link: [Link to the license page]
+  references:
+  - name: [Name of the first reference]
+    link: [https://link_to_your_first_reference]
+
+•	Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
 
 
@@ -41,14 +73,3 @@ To upload data, users need to do following steps:
 
 
 
-
-
-
-
-
-
-
-### The Uploading Process 
-<p align="justify">
-During the uploading process, users need to attach a form with all the required metadata (see separate file). 
-</p>
