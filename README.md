@@ -17,18 +17,36 @@ SCReeD defines standards for sharing cybersecurity datasets, provides guidelines
 The guidelines are provided for SCReeD users regarding dataset uploading, ensuring a systematic approach and inclusion of all relevant metadata. 
 </p>
 
-# Before Uploading
+## Before Uploading
 Before uploading, users need to do following steps.
 
 * Be a member of CSCRC-SCREED organization on GitHub. (Please contact masooma.iftikhar@data61.csiro.au for membership.)
 * Prepare the dataset(s) according to the [SCReeD Dataset Preparation Guidelines](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Preparation%20Guidelines.docx) (Click View Raw to download).
 * Download and fill all relevant metadata in the [SCReeD Dataset Declaration Form](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Declaration%20Form.docx) (Click View Raw to download).
 
-#The Uploading Process
+## The Uploading Process
 Once you are done During the uploading process, users need to attach a form with all the required metadata (see separate file)
 
+To upload data, users need to do following steps:
+* Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
+* Click repositories on the top.
+* To create a GitHub repository to host a dataset, click on the **+** on the top right as shown below.
+  ![Screenshot how to create a GitHub repository to host a dataset](https://myoctocat.com/assets/images/base-octocat.svg](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
 
-</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### The Uploading Process 
 <p align="justify">
