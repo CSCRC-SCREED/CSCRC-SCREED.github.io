@@ -42,10 +42,8 @@ To upload data, users need to do following steps:
   
    ![.dataherb folder structure](/assets/imgs/dataherb.png)
  	
-*	Create a file **.gitattributes** in the **.dataherb** folder with the following content:
-
-  [//]: # (![Example Repo](/assets/imgs/gitattributes.png))
-  *.docx    binary
+*	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
+  *.docx    binary\
   *.pdf     binary
 
  	
@@ -83,8 +81,7 @@ license:
 references:
 - name: [Name of the first reference]
   link: [https://link_to_your_first_reference]
-   
-  ![metadata.yml content](/assets/imgs/metadata.png)
+
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
