@@ -38,16 +38,18 @@ To upload data, users need to do following steps:
   [![How to upload data file](/assets/videos/video-preview.png)](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-upload-datafile-1.mp4)
 
 * Upload your data file into this folder by clicking on button **Upload files**.
-*	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be\
+*	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be
+  
    ![.dataherb folder structure](/assets/imgs/metadata.png)
  	
-*	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
-  *.docx    binary\
- 	*.pdf     binary
+*	Create a file **.gitattributes** in the **.dataherb** folder with the following content:
+
+  ![Example Repo](/assets/imgs/gitattributes.png)
+
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
-*	Create a file metadata.yml in the .dataherb with the following content:(Optional Step)\
-*	
+*	Create a file metadata.yml in the .dataherb with the following content:
+   
   ![metadata.yml content](/assets/imgs/metadata.png)
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
