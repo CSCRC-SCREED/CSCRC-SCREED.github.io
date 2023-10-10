@@ -44,7 +44,7 @@ To upload data, users need to do following steps:
  	
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
   ```css
-  *.docx    binary\
+  *.docx    binary
   *.pdf     binary
   ```
  	
