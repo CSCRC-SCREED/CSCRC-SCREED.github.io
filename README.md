@@ -44,11 +44,45 @@ To upload data, users need to do following steps:
  	
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:
 
-  ![Example Repo](/assets/imgs/gitattributes.png)
+  [//]: # (![Example Repo](/assets/imgs/gitattributes.png))
+  *.docx    binary
+  *.pdf     binary
 
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:
+  
+name: [Name of your dataset]
+description: [Describe your dataset here]
+contributors:
+- name: [Name of the the first contributor]
+data:
+- name: [name of your data file, optional]
+  description: [description of your data file, optional]
+  path: [path_to_your_data_file.csv]
+  format: csv
+  size: [size of your data file]
+  fields:
+  - name: [name of the first colomn]
+    description: [description of the first column]
+  - name: [name of the second colomn]
+    description: [description of the second column]
+- name: [name of your second data file, optional]
+  description: [description of your second data file, optional]
+  path: [path_to_your_data_file.csv]
+  format: csv
+  size: [size of your data file]
+  fields:
+  - name: [name of the first colomn]
+    description: [description of the first column]
+  - name: [name of the second colomn]
+    description: [description of the second column]
+license:
+- name: [Name of the license of the dataset]
+  link: [Link to the license page]
+references:
+- name: [Name of the first reference]
+  link: [https://link_to_your_first_reference]
    
   ![metadata.yml content](/assets/imgs/metadata.png)
 
