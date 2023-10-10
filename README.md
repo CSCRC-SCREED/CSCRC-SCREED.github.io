@@ -78,7 +78,7 @@ To upload data, users need to do following steps:
     &ensp; link: [Link to the license page]\
   references:\
     &ensp; name: [Name of the first reference]\
-    &ensp; link: [https://link_to_your_first_reference]\
+    &ensp; link: [https://link_to_your_first_reference]
  	
 > This is for example, one could use similar or less content for metadata as required.
 
