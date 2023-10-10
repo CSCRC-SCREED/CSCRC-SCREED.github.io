@@ -53,7 +53,7 @@ To upload data, users need to do following steps:
 name: [Name of your dataset] \
 description: [Describe your dataset here]\
 contributors:\
-> name: [Name of the the first contributor]
++ name: [Name of the the first contributor]
 data:
 - name: [name of your data file, optional]
   description: [description of your data file, optional]
