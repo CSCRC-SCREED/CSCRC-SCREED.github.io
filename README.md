@@ -84,6 +84,7 @@ To upload data, users need to do following steps:
 
 ```css
    // code for coloring
+```
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
