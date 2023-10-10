@@ -43,8 +43,10 @@ To upload data, users need to do following steps:
    ![.dataherb folder structure](/assets/imgs/dataherb.png)
  	
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
+  ```css
   *.docx    binary\
   *.pdf     binary
+  ```
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:\
