@@ -48,6 +48,7 @@ To upload data, users need to do following steps:
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:\
+  ```css
   name: [Name of your dataset]\
   description: [Describe your dataset here]\
   contributors:\
@@ -79,12 +80,10 @@ To upload data, users need to do following steps:
   references:\
     &ensp; name: [Name of the first reference]\
     &ensp; link: [https://link_to_your_first_reference]
- 	
+ ```
 > This is for example, one could use similar or less content for metadata as required.
 
-```css
-   // code for coloring
-```
+
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
