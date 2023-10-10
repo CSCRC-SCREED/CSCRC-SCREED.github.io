@@ -50,10 +50,10 @@ To upload data, users need to do following steps:
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:
   
-name: [Name of your dataset]
-description: [Describe your dataset here]
-contributors:
-- name: [Name of the the first contributor]
+name: [Name of your dataset] \
+description: [Describe your dataset here]\
+contributors:\
+> name: [Name of the the first contributor]
 data:
 - name: [name of your data file, optional]
   description: [description of your data file, optional]
