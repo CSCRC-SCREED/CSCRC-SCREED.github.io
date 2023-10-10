@@ -44,7 +44,7 @@ To upload data, users need to do following steps:
   ├── README.md
   ├── .dataherb
   ├── dataset
-      └── your_data_file
+        └── your_data_file
 ```
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
 ```css
