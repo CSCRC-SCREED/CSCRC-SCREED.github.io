@@ -54,34 +54,34 @@ To upload data, users need to do following steps:
   name: [Name of your dataset]
   description: [Describe your dataset here]
   contributors:
-    name: [Name of the the first contributor]\
-  data:\
-    &ensp; name: [name of your data file, optional]\
-    &ensp; description: [description of your data file, optional]\
-    &ensp;  path: [path_to_your_data_file]\
-    &ensp;  format: [format of your data file]\
-    &ensp;  size: [size of your data file]\
-    &ensp;  fields:\
-      &emsp; name: [name of the first colomn]\
-      &emsp; description: [description of the first column]\
-      &emsp; name: [name of the second colomn]\
-      &emsp; description: [description of the second column]\
-    &ensp; name: [name of your second data file, optional]\
-    &ensp; description: [description of your second data file, optional]\
-    &ensp; path: [path_to_your_data_file]\
-    &ensp; format: [format of your data file]\
-    &ensp; size: [size of your data file]\
-    &ensp; fields:\
-      &emsp; name: [name of the first colomn]\
-      &emsp; description: [description of the first column]\
-      &emsp; name: [name of the second colomn]\
-      &emsp; description: [description of the second column]\
-  license:\
-    &ensp; name: [Name of the license of the dataset]\
-    &ensp; link: [Link to the license page]\
-  references:\
-    &ensp; name: [Name of the first reference]\
-    &ensp; link: [https://link_to_your_first_reference]
+    name: [Name of the the first contributor]
+  data:
+    name: [name of your data file, optional]
+    description: [description of your data file, optional]
+    path: [path_to_your_data_file]
+    format: [format of your data file]
+    size: [size of your data file]
+    fields:
+      name: [name of the first colomn]
+      description: [description of the first column]
+      name: [name of the second colomn]
+      description: [description of the second column]
+    name: [name of your second data file, optional]
+    description: [description of your second data file, optional]
+    path: [path_to_your_data_file]
+    format: [format of your data file]
+    size: [size of your data file]
+    fields:
+      name: [name of the first colomn]
+      description: [description of the first column]
+      name: [name of the second colomn]
+      description: [description of the second column]
+  license:
+    name: [Name of the license of the dataset]
+    link: [Link to the license page]
+  references:
+    name: [Name of the first reference]
+    link: [https://link_to_your_first_reference]
  ```
 > This is for example, one could use similar or less content for metadata as required.
 
