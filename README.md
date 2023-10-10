@@ -54,39 +54,39 @@ To upload data, users need to do following steps:
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
 *	Create a file metadata.yml in the .dataherb with the following content:\
-  ```css
-  name: [Name of your dataset]
-  description: [Describe your dataset here]
-  contributors:
-    name: [Name of the the first contributor]
-  data:
-    name: [name of your data file, optional]
-    description: [description of your data file, optional]
-    path: [path_to_your_data_file]
-    format: [format of your data file]
-    size: [size of your data file]
-    fields:
-      name: [name of the first colomn]
-      description: [description of the first column]
-      name: [name of the second colomn]
-      description: [description of the second column]
-    name: [name of your second data file, optional]
-    description: [description of your second data file, optional]
-    path: [path_to_your_data_file]
-    format: [format of your data file]
-    size: [size of your data file]
-    fields:
-      name: [name of the first colomn]
-      description: [description of the first column]
-      name: [name of the second colomn]
-      description: [description of the second column]
-  license:
-    name: [Name of the license of the dataset]
-    link: [Link to the license page]
-  references:
-    name: [Name of the first reference]
-    link: [https://link_to_your_first_reference]
- ```
+```css
+name: [Name of your dataset]
+description: [Describe your dataset here]
+contributors:
+  name: [Name of the the first contributor]
+data:
+  name: [name of your data file, optional]
+  description: [description of your data file, optional]
+  path: [path_to_your_data_file]
+  format: [format of your data file]
+  size: [size of your data file]
+  fields:
+    name: [name of the first colomn]
+    description: [description of the first column]
+    name: [name of the second colomn]
+    description: [description of the second column]
+  name: [name of your second data file, optional]
+  description: [description of your second data file, optional]
+  path: [path_to_your_data_file]
+  format: [format of your data file]
+  size: [size of your data file]
+  fields:
+    name: [name of the first colomn]
+    description: [description of the first column]
+    name: [name of the second colomn]
+    description: [description of the second column]
+license:
+  name: [Name of the license of the dataset]
+  link: [Link to the license page]
+references:
+  name: [Name of the first reference]
+  link: [https://link_to_your_first_reference]
+```
 > This is for example, one could use similar or less content for metadata as required.
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
