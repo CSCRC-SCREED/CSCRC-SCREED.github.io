@@ -45,43 +45,42 @@ To upload data, users need to do following steps:
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
   *.docx    binary\
   *.pdf     binary
-
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
-*	Create a file metadata.yml in the .dataherb with the following content:
-  
+*	Create a file metadata.yml in the .dataherb with the following content:\
   name: [Name of your dataset]\
   description: [Describe your dataset here]\
   contributors:\
-   &ensp; -name: [Name of the the first contributor]\
+    &ensp; name: [Name of the the first contributor]\
   data:\
-    -name: [name of your data file, optional]\
-    -description: [description of your data file, optional]\
-    -path: [path_to_your_data_file.csv]\
-    -format: csv\
-    -size: [size of your data file]\
-  fields:
-  -name: [name of the first colomn]
-    description: [description of the first column]
-  -name: [name of the second colomn]
-    description: [description of the second column]
-  -name: [name of your second data file, optional]
-  description: [description of your second data file, optional]
-  path: [path_to_your_data_file.csv]
-  format: csv
-  size: [size of your data file]
-  fields:
-  -name: [name of the first colomn]
-    description: [description of the first column]
-  -name: [name of the second colomn]
-    description: [description of the second column]
-  license:
-  -name: [Name of the license of the dataset]
-  link: [Link to the license page]
-  references:
-  -name: [Name of the first reference]
-  link: [https://link_to_your_first_reference]
-
+    &ensp; name: [name of your data file, optional]\
+    &ensp; description: [description of your data file, optional]\
+    &ensp;  path: [path_to_your_data_file]\
+    &ensp;  format: [format of your data file]\
+    &ensp;  size: [size of your data file]\
+    &ensp;  fields:\
+      &emsp; name: [name of the first colomn]\
+      &emsp; description: [description of the first column]\
+      &emsp; name: [name of the second colomn]\
+      &emsp; description: [description of the second column]\
+    &ensp; name: [name of your second data file, optional]\
+    &ensp; description: [description of your second data file, optional]\
+    &ensp; path: [path_to_your_data_file]\
+    &ensp; format: [format of your data file]\
+    &ensp; size: [size of your data file]\
+    &ensp; fields:\
+      &emsp; name: [name of the first colomn]\
+      &emsp; description: [description of the first column]\
+      &emsp; name: [name of the second colomn]\
+      &emsp; description: [description of the second column]\
+  license:\
+    &ensp; name: [Name of the license of the dataset]\
+    &ensp; link: [Link to the license page]\
+  references:\
+    &ensp; name: [Name of the first reference]\
+    &ensp; link: [https://link_to_your_first_reference]\
+ 	
+> This is for example, one could use similar or less content for metadata as required.
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
