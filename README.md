@@ -82,8 +82,8 @@ To upload data, users need to do following steps:
  	
 > This is for example, one could use similar or less content for metadata as required.
 
-```css
-   // #e9541f
+<div style="background-color:#e9541f">
+Div content here</div>
 
 * Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
 
