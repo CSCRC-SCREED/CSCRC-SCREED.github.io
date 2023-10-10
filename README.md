@@ -39,9 +39,13 @@ To upload data, users need to do following steps:
 
 * Upload your data file into this folder by clicking on button **Upload files**.
 *	Create a **.dataherb** folder in the root of your repository. Now the folder structure should be
-  
-   ![.dataherb folder structure](/assets/imgs/dataherb.png)
- 	
+   ```css
+    .
+    ├── README.md
+    ├── .dataherb
+    ├── dataset
+        └── your_data_file
+ ```
 *	Create a file **.gitattributes** in the **.dataherb** folder with the following content:\
   ```css
   *.docx    binary
