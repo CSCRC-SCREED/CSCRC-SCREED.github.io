@@ -27,9 +27,13 @@ Before uploading, users need to do following steps.
 ## The Uploading Process
 Once you are done During the uploading process, users need to attach a form with all the required metadata (see separate file)
 
-To upload data, users need to do following steps:
+To upload data, there are two methods. User can use either of them to upload dataset
+### Method 1:
+To upload data with methhod 1, users need to do following steps:
+
 * Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
-* Click repositories on the top to create a GitHub repository to host a dataset.Click on the **+** on the top right as shown below.
+* Click repositories on the top to create a GitHub repository to host your dataset.
+* Click on the **+** on the top right as shown below.
 
   ![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
   
@@ -53,7 +57,7 @@ To upload data, users need to do following steps:
 ```
  	
 *	Upload the prepared **SCReeD Dataset Declaration Form** in the **.dataherb** folder by clicking on the **Add file** button, and select upload files. Then ** drag and drop** the prepared SCReeD Dataset Declaration Form to upload in the **.dataherb** folder.
-*	Create a file metadata.yml in the .dataherb with the following content:\
+*	Create a file **metadata.yml** in the **.dataherb** folder with the following content:\
 ```css
 name: [Name of your dataset]
 description: [Describe your dataset here]
@@ -93,12 +97,32 @@ references:
 
   ![Example Repo](/assets/imgs/example.png)
 
+### Method 2:
+To upload data with methhod 2, users need to do following steps:
 
+* Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
+* Click repositories on the top and select the repository with name "Sample".
+* Then Click on the **Code** button, and select **download ZIP** as shown below. This will create a copy of the Sample repository on your local machine.
 
+![How to download GitHub Sample repository](/assets/imgs/downlaodRepo.png)
 
-
-
-
-
-
-
+* UnZip the downloaded Sample repository folder and do the following steps.
+  - Open **.dataherb** folder and edit **metadata.yml** accordingly. Also add prepared **SCReeD Dataset Declaration Form** in it.
+  - Add your datasets files in the **dataset** folder and update **ReadMe** file about the dataset accordingly.
+    
+* Now go back to [CSCRC-SCREED](https://github.com/CSCRC-SCREED). Select repositories tab on top and click on the **+** on the top right to create a GitHub repository to host yor dataset as shown below.
+  
+ ![How to create a GitHub repository to host a dataset](https://dataherb.github.io/assets/videos/dataherb-demo-ufo-create-new-repo.gif)
+  
+* Create **dataset** and **.dataherb** folders. For each folder, click on the **Create new file** button, and type in **dataset/.githold** for dataset folder and **.dataherb/.githold** for .dataherb folder, respectively. This will create two folders called **dataset** and **.dataherb** with a file called** .githold** inside it.
+*  Now the folder structure should be
+ ```css
+  .
+  ├── README.md
+  ├── .dataherb
+  ├── dataset
+```
+* Open the downloaded Sample repository folder saved in your local machine and from this upload all files in the respective folders craeted on GitHub.
+* For example click **dataset** folder on GitHub and click on the **Add file** button, and select upload files. Then ** drag and drop** all the required files from the dataset folder in your local machine. Repeat this for **.dataherb** folder.
+* In the end update **README.md** for the created repository and add detail infromation about the repository.
+* Now the uploaded process is complete.
