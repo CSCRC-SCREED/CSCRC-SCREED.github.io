@@ -92,8 +92,8 @@ references:
 ```
 > This is for example, one could use similar or less content for metadata as required.
 
-* Now the uploaded process is complete, and you can view your dataset repositories as shown in the below example.
-
+* Now the uploaded process is complete, and others can view your dataset repository.
+* You and others can view your dataset repositories as shown in the below example.
   ![Example Repo](/assets/imgs/example.png)
 
 ### Method 2:
@@ -122,5 +122,5 @@ To upload data with method 2, users need to do following steps:
   ├── dataset
 ```
 * Open the downloaded Sample repository folder saved in your local machine and from this upload all files in the respective folders craeted on GitHub, for example, click **dataset** folder on GitHub and click on the **Add file** button, and select upload files. Then ** drag and drop** all the required files from the dataset folder in your local machine. Repeat this for **.dataherb** folder.
-* In the end update **README.md** for the created repository and add detail infromation about the repository.
-* Now the uploaded process is complete.
+* In the end update **README.md** for the created repository and add details about the repository.
+* Now the uploaded process is complete, and others can view your dataset repository.
