@@ -29,7 +29,7 @@ Once you are done During the uploading process, users need to attach a form with
 
 To upload data, there are two methods. User can use either of them to upload dataset
 ### Method 1:
-To upload data with methhod 1, users need to do following steps:
+To upload data with method 1, users need to do following steps:
 
 * Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
 * Click repositories on the top to create a GitHub repository to host your dataset.
@@ -98,7 +98,7 @@ references:
   ![Example Repo](/assets/imgs/example.png)
 
 ### Method 2:
-To upload data with methhod 2, users need to do following steps:
+To upload data with method 2, users need to do following steps:
 
 * Go to [CSCRC-SCREED](https://github.com/CSCRC-SCREED) and login.
 * Click repositories on the top and select the repository with name "Sample".
