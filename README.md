@@ -25,7 +25,7 @@ Before uploading, users need to do following steps.
 * Download and fill all relevant metadata in the [SCReeD Dataset Declaration Form](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Declaration%20Form.docx) (Click View Raw to download).
 
 ## The Uploading Process
-Once you are done its time upload the dataset. To upload the datasets, there are two methods. User can follow either of them.
+Once you are done its time to upload the dataset. To upload the datasets, there are two methods, user can follow either of them.
 
 ### Method 1:
 To upload data with method 1, users need to do following steps:
