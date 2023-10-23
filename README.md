@@ -93,7 +93,7 @@ references:
 > This is for example, one could use similar or less content for metadata as required.
 
 * Now the uploaded process is complete, and others can view your dataset repository.
-* You and others can view your dataset repositories as shown in the below example.
+* You and others can view your dataset repository as shown in the below example.
   ![Example Repo](/assets/imgs/example.png)
 
 ### Method 2:
