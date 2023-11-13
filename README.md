@@ -25,6 +25,8 @@ Before uploading, users need to do following steps.
 * Download and fill all relevant metadata in the [SCReeD Dataset Declaration Form](https://github.com/CSCRC-SCREED/cscrc-screed.github.io/blob/main/assets/docs/SCReeD%20Dataset%20Declaration%20Form.docx) (Click View Raw to download).
 * Also fill all relevant metadata in the [online form](https://forms.office.com/r/ma1sQXBR71) before uploading.
 
+(Note: Metadata of the uploaded datasets on SCReeD platform is available [here](https://csiroau-my.sharepoint.com/:x:/r/personal/ift002_csiro_au/Documents/SCReeD%20Dataset%20Declaration%20Form%20(Metadata).xlsx?d=w1a13bf6cc970480cb7ff2a439e1900be&csf=1&web=1&e=4uFHIk)
+
 ## The Uploading Process
 Once you are done its time to upload the dataset. To upload the datasets, there are two methods, user can follow either of them.
 
